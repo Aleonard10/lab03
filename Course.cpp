@@ -5,10 +5,10 @@
 #include <iostream>
 using namespace std;
 
-#include "my_object.h" 
+#include "Course.h" 
 
 // example of how functions are specified
-void My_object::print()
+void Course::print()
 {
     // the code for the print function goes here
 
