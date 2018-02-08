@@ -6,13 +6,16 @@
 using namespace std;
 
 #include "Course.h" 
+#include <string>
+#include <iostream>
 
 // example of how functions are specified
+Course::Course(string dept, int number, int time);
 void Course::print()
 {
     // the code for the print function goes here
 
-    cout << "hello\n";
+    cout << dept << " " << number << " at " << time << endl;
 
 
 }
